@@ -38,10 +38,10 @@ public class Assignment_5_6 {
 		Thread.sleep(3000);
 
 		System.out.println("STEP : Enter email");
-		driver.findElement(By.xpath("//input[@id='UserFirstName']")).sendKeys(email);
+		driver.findElement(By.xpath("//input[@id='exampleInputEmail1']")).sendKeys(email);
 
 		System.out.println("STEP : Enter password");
-		driver.findElement(By.xpath("//input[@id='UserLastName']")).sendKeys(password);
+		driver.findElement(By.xpath("//input[@id='pwd']")).sendKeys(password);
 
 		System.out.println("STEP : Click on Submit button");
 		driver.findElement(By.xpath("//button[@id='submitb2']")).click();
